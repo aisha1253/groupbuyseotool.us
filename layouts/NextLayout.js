@@ -3,7 +3,7 @@ import { nextUtility } from "@/utility";
 import { Fragment, useEffect } from "react";
 import Footer from "./Footer";
 import Header from "./Header";
-const NextLayout = ({ header, footer, children, bgBlack, single }) => {
+const NextLayout = ({ header, footer, children, bgBlack = false, single }) => {
   useEffect(() => {
     console.log(bgBlack);
     if (bgBlack) {
