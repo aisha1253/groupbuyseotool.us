@@ -452,25 +452,6 @@ const Footer3 = () => {
                 </div>
               </div>
             </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6 ps-lg-2 wow fadeInUp"
-              data-wow-delay=".8s"
-            >
-              <div className="single-footer-widget">
-                <div className="widget-head">
-                  <h4>Newsletter</h4>
-                </div>
-                <div className="footer-content">
-                  <p>Get more update to join Us</p>
-                  <div className="footer-input">
-                    <input type="email" id="email" placeholder="Your Email" />
-                    <button className="newsletter-btn" type="submit">
-                      <i className="far fa-arrow-right" />
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -578,24 +559,6 @@ const Footer4 = () => {
                         <a href="tel:00012345688">+000 (123) 456 88</a>
                       </h4>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6 ps-lg-2 wow fadeInUp"
-              data-wow-delay=".8s"
-            >
-              <div className="single-footer-widget">
-                <div className="widget-head">
-                  <h4>Newsletter</h4>
-                </div>
-                <div className="footer-content">
-                  <p>Get more update to join Us</p>
-                  <div className="footer-input">
-                    <input type="email" id="email" placeholder="Your Email" />
-                    <button className="newsletter-btn" type="submit">
-                    </button>
                   </div>
                 </div>
               </div>
