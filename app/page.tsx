@@ -408,7 +408,7 @@ const page = () => {
               <div className="stat-item text-center wow fadeInUp" data-wow-delay=".3s">
                 <h3 style={{ fontSize: '200px', fontWeight: '700', color: '#ffffff', marginBottom: '20px', lineHeight: '1' }}>
                   <span className="count">
-                    <Counter end={50} />
+                    <Counter end={50} decimals={0} />
                   </span>+
                 </h3>
                 <p style={{ fontSize: '42px', color: '#ffffff', margin: 0, opacity: 0.9, fontWeight: '500' }}>Premium SEO Tools</p>
@@ -418,7 +418,7 @@ const page = () => {
               <div className="stat-item text-center wow fadeInUp" data-wow-delay=".5s">
                 <h3 style={{ fontSize: '200px', fontWeight: '700', color: '#ffffff', marginBottom: '20px', lineHeight: '1' }}>
                   <span className="count">
-                    <Counter end={10} />
+                    <Counter end={10} decimals={0} />
                   </span>K+
                 </h3>
                 <p style={{ fontSize: '42px', color: '#ffffff', margin: 0, opacity: 0.9, fontWeight: '500' }}>Happy Customers</p>
@@ -428,7 +428,7 @@ const page = () => {
               <div className="stat-item text-center wow fadeInUp" data-wow-delay=".7s">
                 <h3 style={{ fontSize: '200px', fontWeight: '700', color: '#ffffff', marginBottom: '20px', lineHeight: '1' }}>
                   <span className="count">
-                    <Counter end={99} />
+                    <Counter end={99} decimals={0} />
                   </span>%
                 </h3>
                 <p style={{ fontSize: '42px', color: '#ffffff', margin: 0, opacity: 0.9, fontWeight: '500' }}>Uptime Guarantee</p>
