@@ -1,7 +1,6 @@
-import { auth, currentUser } from '@clerk/nextjs/server'
+import { auth, clerkClient } from '@clerk/nextjs/server'
 import { prisma } from '@/lib/prisma'
 import { NextResponse } from 'next/server'
-import { clerkClient } from '@clerk/nextjs/server'
 
 // Ensure Node.js runtime (not edge) for Prisma
 export const runtime = 'nodejs'
@@ -33,7 +32,8 @@ export async function POST(request: Request) {
 
     // Also update Clerk metadata
     try {
-      await clerkClient.users.updateUserMetadata(userId, {
+      const client = await clerkClient()
+      await client.users.updateUserMetadata(userId, {
         publicMetadata: {
           role: role,
         },
